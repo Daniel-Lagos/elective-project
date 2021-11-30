@@ -32,7 +32,7 @@ Taller para uso de NodeJS con Express y EJS como motor de vistas
 
 ## Instalación y Configuración
 
--clonas el repositorio y ejecutas:
+- clonas el repositorio y ejecutas:
 
 ```
 npm i || npm install
