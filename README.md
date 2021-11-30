@@ -35,12 +35,11 @@ Taller para uso de NodeJS con Express y EJS como motor de vistas
 -clonas el repositorio y ejecutas:
 
 ```
-npm i
+npm i || npm install
 ```
 
 ### Rutas
 
-- `/`. Renderiza el archivo `index.ejs`, envía el título de la página y el arreglo de estudiantes para desplegar su contenido en una tabla
-- `/insert`. Ruta de tipo `GET`, visualiza el formulario  para capturas los datos del estudiante. Además envía los módulos requeridos de departamentos y municipios para usarlos en SELECTS dependientes
-- `/insert`. Ruta de tipo `POST`, recibe los datos del formulario, a partir de los códigos de departamento y municipio, obtiene la descripción correspondiente de los arreglos, crea un nuevo objeto estudiante y lo almacena en el arreglo, redirecciona a la rzíz del sitio
-- `/about`. Ruta para visualizar información de la App
+- `/api/`. Renderiza el archivo `home.ejs`
+- `/api/login/`. Renderiza el archivo `index.ejs`
+- `/api/home/`. Renderiza el archivo `hero.ejs`
